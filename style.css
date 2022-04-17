@@ -17,9 +17,9 @@ body {
 
 header {
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5)url('images/web-design.jpg');
+    background: rgba(0, 0, 0, 0.5) url('images/web-design.jpg');
     background-size: cover;
-    background-blend-mode: darken;
+    background-blend-mode: hard-light;
 }
 
 nav {
@@ -430,4 +430,60 @@ justify-content: center;
     width: 50px;
     height: 50px;
     text-align: center
+}
+
+#poste{
+    background: #f2f2f2;
+    padding-top: 50px;
+}
+
+#poste h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#poste .bouton{
+    display: flex;
+    justify-content: center;
+
+}
+
+#poste .bouton button {
+    background-color: #00b4d9 ;
+    border: 1px solid  #00b4d9;
+    text-align: center;
+    height: 10px  ;
+    padding: 15px 35px 25px 35px ;
+    margin: 10px;
+    color: wheat;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 5px;
+
+}
+
+
+
+
+#poste .bouton button:focus {
+    background-color: transparent;
+    color: #00b4d9 ;
+}
+
+.mes_images{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mes_images div  {
+
+    height: 300px;
+    width: 30%;
+    margin: 10px;
+    background-color: red;
+
 }
