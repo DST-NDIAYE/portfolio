@@ -531,51 +531,82 @@ header .contents p {
 .contacte {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
-    background-color: red;
+    padding: 50px 0;
 }
 
 .contacte .container {
-    width: 93%;
+    width: 80%;
     display: flex;
+    padding: 30px;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
 }
 
 .contact_form {
     width: 45%;
-    background-color: #21cff3;
+    margin: 20px;
 }
 
 .contact_address {
     width: 40%;
-    background-color: yellow;
+    margin: 20px;
 }
 
 .contact_address .box {
-    border: 2px red solid;
+    border: 1px solid rgb(220, 218, 218);
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
-form {
-    padding: 10px;
+.contact_address .box p i {
+    font-size: 20px;
+    float: left;
+    line-height: 50px;
+    border-radius: 30px;
+    background: #00b4d9;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.contacte h3 {
+    font-size: 150%;
+}
+
+.contact_address .box span {
+    display: block;
 }
 
 form div p {
     display: flex;
     justify-content: space-between;
-    background-color: rebeccapurple;
 }
 
 form div input {
-    width: 250px;
-    border: 1px black solid;
+    width: 45%;
+    border: 1px solid rgb(220, 218, 218);
 }
 
 input {
     display: block;
     height: 40px;
     margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(220, 218, 218);
+    padding-left: 10px;
+}
+
+#jubject {
+    border: 1px solid rgb(220, 218, 218);
+    padding-left: 10px;
 }
 
 form>p input,
 textarea {
     width: 99%;
+    background-color: transparent;
+    border: 1px solid rgb(220, 218, 218);
 }
