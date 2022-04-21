@@ -427,8 +427,6 @@ header .contents p {
 }
 
 .mes_images div {
-    display: flex;
-    justify-content: center;
     height: 300px;
     width: 30%;
     margin: 10px;
@@ -464,44 +462,43 @@ header .contents p {
     transition: all .5s ease-in-out;
 }
 
-.img_1 {
-    background-image: url("images/img-1.jpg");
-    background-blend-mode: darken;
-}
+
 
 .img_1 {
     background-image: url("images/img-1.jpg");
     background-blend-mode: darken;
-}
-
-.img_1 {
-    background-image: url("images/img-1.jpg");
-    background-blend-mode: darken;
+    background-size: cover;
+    
 }
 
 .img_2 {
     background-image: url("images/img-2.jpg");
     background-blend-mode: darken;
+    
 }
 
 .img_3 {
     background-image: url("images/img-3.jpg");
     background-blend-mode: darken;
+    
 }
 
 .img_4 {
     background-image: url("images/img-4.jpg");
     background-blend-mode: darken;
+    
 }
 
 .img_5 {
     background-image: url("images/img-5.jpg");
     background-blend-mode: darken;
+    
 }
 
 .img_6 {
     background-image: url("images/img-6.jpg");
     background-blend-mode: darken;
+    
 }
 
 .mes_images div:hover span {
