@@ -347,7 +347,7 @@ header .contents p {
 .grand_boite li .texte-description {
     background: #f2f2f2;
     padding: 20px;
-    height: 150px;
+    height: 90%;
 }
 
 .grand_boite li span {
@@ -439,7 +439,6 @@ header .contents p {
     display: block;
     margin: auto;
 }
-
 .mes_images div span a {
     margin: 10px;
     height: 30px;
@@ -461,7 +460,8 @@ header .contents p {
     height: 300px;
     width: 100%;
     color: white;
-    display: none;
+    opacity: 0;
+    transition: all .5s ease-in-out;
 }
 
 .img_1 {
@@ -507,6 +507,8 @@ header .contents p {
 .mes_images div:hover span {
     display: flex;
     background: rgba(3, 165, 225, 0.5);
+    opacity: 1;
+    transition: all .4s linear;
 }
 
 #decompte {
