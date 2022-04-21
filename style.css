@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    padding-top: 40px;
     height: 100vh;
     background: rgba(0, 0, 0, 0.5) url("images/web-design.jpg");
     background-size: cover;
@@ -23,6 +24,10 @@ nav {
     display: flex;
     justify-content: space-between;
     height: 11%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
 }
 
 nav a img {
@@ -83,7 +88,7 @@ header .contents p {
     display: block;
     width: 30px;
     height: 30px;
-    margin: 5px;
+    margin: 15px;
     border-radius: 100%;
     background-color: #fff;
     padding: 7px 5px 0 0;
@@ -96,7 +101,6 @@ header .contents p {
 
 .btn {
     background-color: #00b4d9;
-    position: relative;
     font-size: 14px;
     padding: 10px 30px;
     cursor: pointer;
@@ -107,6 +111,7 @@ header .contents p {
     transition: all 0.2s linear;
     display: inline-block;
     text-decoration: none;
+    margin-left: 20px;
 }
 
 .btn:hover {
@@ -151,20 +156,23 @@ header .contents p {
 .contenaire_profile {
     border: 8px solid #fff;
     box-shadow: 0 0 30px rgb(0 0 0 / 20%);
-    height: 500px;
     background-color: #00b4d9;
 }
 
 .img_profil {
     box-shadow: 0 0 30px rgb(0 0 0 / 20%);
-    width: 400px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
 }
 
 .description {
-    margin: 20px;
-    height: 500px;
-    width: 700px;
+    margin-left: 60px;
+    height: 80%;
+    width: 100%;
+}
+
+.btn-telechargement {
+    margin-left: -20px;
 }
 
 .description h3 {
@@ -246,9 +254,9 @@ header .contents p {
 
 .boite {
     background-color: white;
-    width: 21%;
+    width: 20%;
     margin: 20px;
-    height: 280px;
+    height: 290px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -535,10 +543,15 @@ header .contents p {
 }
 
 .contacte .container {
-    width: 80%;
     display: flex;
+    flex-direction: column;
+    width: 80%;
     padding: 30px;
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+}
+
+.contacte .container .formulaire {
+    display: flex;
 }
 
 .contact_form {
@@ -602,6 +615,7 @@ input {
 #jubject {
     border: 1px solid rgb(220, 218, 218);
     padding-left: 10px;
+    width: 99%;
 }
 
 form>p input,
@@ -609,4 +623,39 @@ textarea {
     width: 99%;
     background-color: transparent;
     border: 1px solid rgb(220, 218, 218);
+}
+
+form button {
+    background-color: #00b4d9;
+    border: 1px solid #00b4d9;
+    text-align: center;
+    height: 10px;
+    padding: 10px 35px 25px 35px;
+    margin: 10px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #252525;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul a {
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+}
+
+footer span {
+    color: white;
+    text-align: center;
+    margin-left: 32px;
+    margin-bottom: 40px;
 }
