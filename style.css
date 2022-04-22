@@ -179,6 +179,11 @@ header .contents p {
     margin-left: -20px;
 }
 
+.btn-telechargement a i:first-child {
+    margin: 5px;
+    font-size: 15px;
+}
+
 .description h3 {
     font-size: 30px;
     font-weight: 400;
