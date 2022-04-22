@@ -146,7 +146,7 @@ header .contents p {
     color: #fff;
 }
 
-.section_1 {
+#section_1 {
     display: flex;
     padding: 60px 0;
     width: 80%;
@@ -535,13 +535,13 @@ header .contents p {
     height: 50%;
 }
 
-.contacte {
+#contacte {
     display: flex;
     justify-content: center;
     padding: 50px 0;
 }
 
-.contacte .container {
+#contacte .container {
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -549,7 +549,7 @@ header .contents p {
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
 }
 
-.contacte .container .formulaire {
+#contacte .container .formulaire {
     display: flex;
 }
 
