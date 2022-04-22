@@ -5,33 +5,27 @@
     display: none;
   }
 
-  
-.mes_images div {
-  height: 250px;
-  width: 45%;
-  margin: 10px;
+  .mes_images div {
+    height: 250px;
+    width: 45%;
+    margin: 10px;
+  }
 
-}
+  .mes_images div span {
+    height: 100%;
+  }
 
-.mes_images div span{
-  height: 100%;
-}
+  #services .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-
-
-#services .container {
-  display: flex;
-flex-wrap: wrap;}
-
-.boite {
-  width: 40%;
- 
-}
-
+  .boite {
+    width: 40%;
+  }
 }
 
 @media (max-width: 767px) {
-  
   nav div a {
     display: none;
   }
@@ -57,81 +51,81 @@ flex-wrap: wrap;}
     margin-top: 30px;
   }
 
-
   #section_1 {
     display: flex;
     flex-direction: column;
     padding: 60px 0;
     width: 80%;
     margin: auto;
-}
+  }
 
-
-.contenaire_profile {
+  .contenaire_profile {
     border: 8px solid #fff;
     box-shadow: 0 0 30px rgb(0 0 0 / 20%);
     background-color: #00b4d9;
     height: 600px;
-}
+  }
 
-.img_profil {
+  .img_profil {
     box-shadow: 0 0 30px rgb(0 0 0 / 20%);
     width: 100%;
     height: 100%;
+  }
+
+  #services .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .boite {
+    width: 90%;
+  }
+
+  .mes_images div {
+    height: 300px;
+    width: 80%;
+    margin: 10px;
+  }
+
+  #decompte {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+
+  #decompte div {
+    width: 40%;
+  }
+
+  .contacte .container .formulaire {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #poste .bouton {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #poste .bouton button {
+    height: 10px;
+    padding: 15px 35px 25px 35px;
+    margin: 10px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 5px;
+  }
 }
 
-
-#services .container {
-  display: flex;
-  flex-direction: column;
-}
-
-.boite {
-  width: 90%;
- 
-}
-
-.mes_images div {
-  height: 300px;
-  width: 80%;
-  margin: 10px;
-}
-
-
-
-
-#decompte {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 50px 0 ;
-}
-
-#decompte div {
-  width: 40%;
-}
-
-
-.contacte .container .formulaire {
-  display: flex;
-  flex-direction: column;
-}
-
-
-#poste .bouton {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-#poste .bouton button {
-  height: 10px;
-  padding: 15px 35px 25px 35px;
-  margin: 10px;
-  color: white;
-  font-weight: 400;
-  letter-spacing: 2px;
-  border-radius: 5px;
-}
-
-
+@media (max-width: 410px) {
+  header .contents h2 {
+    font-family: source sans pro, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    margin-bottom: 25px;
+    background-color: red;
+  }
 }
