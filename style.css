@@ -42,6 +42,10 @@ header nav div a {
     font-weight: 800;
 }
 
+header nav div a:hover{
+    color: #00b4d9;
+}
+
 header nav div {
     display: flex;
     justify-content: space-around;
