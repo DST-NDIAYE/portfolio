@@ -206,7 +206,6 @@ header .contents p {
 
 .btn-danger {
     background-color: #e90d23;
-    position: relative;
     font-size: 14px;
     padding: 10px 30px;
     cursor: pointer;
@@ -662,3 +661,20 @@ footer span {
     margin-left: 32px;
     margin-bottom: 40px;
 }
+
+
+.up{
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    font-size: 30px;
+    background-color: #00b4d9;
+    color: #fff;
+    position: fixed;
+    text-align: center;
+    bottom: 18px;
+    right: 15px;
+    box-shadow: 0 0 30px rgba(85, 80, 80, 0.2);
+
+}
+
