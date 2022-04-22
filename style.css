@@ -654,7 +654,7 @@ footer {
     justify-content: center;
 }
 
-footer ul a {
+footer div a {
     display: block;
     text-align: center;
     margin-left: 10px;
@@ -683,3 +683,7 @@ footer span {
 
 }
 
+
+iframe{
+    width: 100%;
+}
