@@ -28,6 +28,7 @@
 @media (max-width: 767px) {
   nav div a {
     display: none;
+    
   }
 
   header .contents span {
