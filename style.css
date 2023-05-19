@@ -161,6 +161,8 @@ header .contents p {
     border: 8px solid #fff;
     box-shadow: 0 0 30px rgb(0 0 0 / 20%);
     background-color: #00b4d9;
+    height: 500px;
+    width: 300px;
 }
 
 .img_profil {
