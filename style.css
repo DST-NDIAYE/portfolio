@@ -323,7 +323,6 @@ header .contents p {
 }
 
 .grand_boite .icon_titre {
-    background-color: red;
     display: flex;
     width: 300px;
     margin-bottom: 0px;
