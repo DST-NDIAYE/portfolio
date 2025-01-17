@@ -1,20 +1,26 @@
 @import "https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700";
 body {
-    margin: 0;
-    padding: 0;
-    background: #fff;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: source sans pro, sans-serif;
-    box-sizing: border-box;
-    line-height: 25px;
-    overflow-x: hidden;
+    
+    background: #fff url("images/download.png") no-repeat center fixed ;
+    height: 100vh;
+    
+
+}
+
+.foreground-image {
+    position: fixed; /* Fixe l'image par rapport à la fenêtre */
+            top: 0;
+            left: 0;
+            width: 100vw; /* Largeur totale de la fenêtre */
+            height: 100vh; /* Hauteur totale de la fenêtre */
+            object-fit: cover; /* Ajuste l'image pour couvrir tout l'écran */
+            z-index: 10; /* Place l'image au-dessus des autres éléments */
 }
 
 header {
     padding-top: 40px;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5) url("images/web-design.jpg");
+    background: url("images/web-design.jpg") ;
     background-size: cover;
     background-blend-mode: darken;
 }
