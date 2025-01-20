@@ -323,9 +323,26 @@ header .contents p {
 
 #education_experience {
     display: flex;
+    flex-direction: column-reverse;
     padding: 70px 20px;
+    
 }
 
+#education_experience .education {
+    display: flex;
+    
+}
+
+#education_experience .education ul {
+    display: flex;
+    width: 100%;
+}
+
+
+
+#education_experience .education ul li{
+    width: 100%;
+}
 .grand_boite .icon_titre {
     display: flex;
     width: 300px;
