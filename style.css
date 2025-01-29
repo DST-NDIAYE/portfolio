@@ -712,3 +712,67 @@ footer span {
 iframe{
     width: 100%;
 }
+
+
+
+
+
+/*############################*/
+
+
+
+
+#education_experience {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  #education_experience .education ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #education_experience .grand_boite > li:first-child {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #education_experience .grand_boite > li:first-child i {
+    font-size: 30px;
+    color: #00b4d9;
+  }
+  
+  #education_experience .grand_boite > li:first-child h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #education_experience .texte-description {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #00b4d9;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #education_experience .texte-description h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #education_experience .texte-description span {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  #education_experience .texte-description p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
