@@ -17,8 +17,8 @@ body {
 
 header {
     padding-top: 40px;
-    height: 100vh;
-    background: url("images/web-design.jpg") ;
+    height: 90vh;
+    background: url("images/my_back.jpeg") ;
     background-size: cover;
     background-blend-mode: darken;
 }
