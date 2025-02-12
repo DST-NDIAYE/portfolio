@@ -784,4 +784,43 @@ iframe{
     color: #555;
     line-height: 1.6;
   }
-  
+
+#testimonials {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#testimonials .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#testimonials .testimonial {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials .testimonial p {
+  font-style: italic;
+  color: #555;
+}
+
+#testimonials .testimonial span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
