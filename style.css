@@ -102,18 +102,26 @@ header .contents p {
 }
 
 .icon_reseaux_sociaux a {
-    display: block;
-    width: 30px;
-    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     margin: 15px;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: #fff;
-    padding: 7px 5px 0 0;
     text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .icon_reseaux_sociaux a i {
     font-size: 20px;
+    color: #00b4d9;
+}
+
+.icon_reseaux_sociaux a:hover {
+    background-color: #00b4d9;
+    color: #fff;
 }
 
 .btn {
@@ -140,27 +148,22 @@ header .contents p {
 
 .facebook:hover {
     background: #3b5999;
-    color: #fff;
 }
 
 .twitter:hover {
     background: #4a9cec;
-    color: #fff;
 }
 
 .instagram:hover {
     background: #d6274d;
-    color: #fff;
 }
 
 .linkedin:hover {
     background: #1260a2;
-    color: #fff;
 }
 
 .google:hover {
     background: #ce332a;
-    color: #fff;
 }
 
 #section_1 {
