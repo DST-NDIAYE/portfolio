@@ -208,7 +208,12 @@ header .contents p {
     font-size: 20px;
 }
 
-.description ul_m)uuèçlpiàpçp:pççà:pàçàp:ç:ç:à!ç!ç!^àç^!àçç^!àç^!àçàç)^!àççç:p:àç:çà^^^^^^^ùùù=ù===$$!ççi)$ù=)))))))))))))))))^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^)^)ààà)çp)à!kknlklllliikiç-pàù= {}
+.description ul {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 .description ul li {
     list-style: none;
@@ -589,28 +594,31 @@ header .contents p {
     width: 80%;
     padding: 30px;
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 #contacte .container .formulaire {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .contact_form {
-    width: 45%;
-    margin: 20px;
+    width: 48%;
+    margin: 20px 0;
 }
 
 .contact_address {
-    width: 40%;
-    margin: 20px;
+    width: 48%;
+    margin: 20px 0;
 }
 
 .contact_address .box {
     border: 1px solid rgb(220, 218, 218);
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .contact_address .box p i {
@@ -623,60 +631,60 @@ header .contents p {
     width: 50px;
     height: 50px;
     text-align: center;
-    margin-right: 5px;
-}
-
-.contacte h3 {
-    font-size: 150%;
+    margin-right: 10px;
 }
 
 .contact_address .box span {
     display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
 }
 
 form div p {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 form div input {
-    width: 45%;
+    width: 48%;
     border: 1px solid rgb(220, 218, 218);
+    padding: 10px;
+    border-radius: 5px;
 }
 
-input {
+input, textarea {
     display: block;
+    width: 100%;
     height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     background-color: transparent;
     border: 1px solid rgb(220, 218, 218);
     padding-left: 10px;
+    border-radius: 5px;
 }
 
-#jubject {
-    border: 1px solid rgb(220, 218, 218);
-    padding-left: 10px;
-    width: 99%;
-}
-
-form>p input,
 textarea {
-    width: 99%;
-    background-color: transparent;
-    border: 1px solid rgb(220, 218, 218);
+    height: 100px;
 }
 
 form button {
     background-color: #00b4d9;
     border: 1px solid #00b4d9;
     text-align: center;
-    height: 10px;
-    padding: 10px 35px 25px 35px;
-    margin: 10px;
+    padding: 10px 35px;
+    margin: 10px 0;
     color: white;
     font-weight: 400;
     letter-spacing: 2px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #21cff3;
 }
 
 footer {
